@@ -60,7 +60,7 @@ while 1:
             score, best_move = miniMax(grid, ai, player, depth=9)
             pygame.display.flip()
             # Random Delays for AI's moves, comment this if depth is higher or if grid is larger
-            pygame.time.wait(random.randint(1500, 3000))
+            pygame.time.wait(random.randint(300, 1000))
             grid.set(best_move[0], best_move[1], ai)
             player_chance = True
     else:
