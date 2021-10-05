@@ -3,10 +3,9 @@
 Playable Tic Tac Toe game with AI
 
 ## Installation
-1. ```bash
-    git clone <repo_link>
-2. ```bash
-    pip install -r requirements.txt
-3. ```bash
-    python ./main.py
-![minimax_tictactoe.gif](minimax_tictactoe.gif)
+```bash
+git clone <repo_link>
+pip install -r requirements.txt
+python ./main.py
+```
+![TicTacToe](minimax_tictactoe.gif)
