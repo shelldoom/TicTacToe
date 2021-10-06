@@ -8,7 +8,7 @@ Increasing the minimax depth will result in a better AI (up till a certain depth
 
 ## Installation
 ```bash
-git clone <repo_link>
+git clone https://github.com/shelldoom/TicTacToe
 pip install -r requirements.txt
 python ./main.py
 ```
