@@ -15,7 +15,8 @@ clock = pygame.time.Clock()
 # Change below to True, if you to give Player the first chance
 givePlayerFirstChance = False
 
-# 3x3 tic tac
+# Intialization
+# 3x3 tic tac toe
 rows, cols = 3, 3
 grid = Grid(rows, cols, 100, 100)
 winner = False
@@ -72,6 +73,8 @@ while 1:
         else: 
             gameOverText = f"{'AI' if winner == ai else 'Player'} won!"
 
+    # Gameover text designed for 3x3 grid
+    # You might wanna comment the below, if using a larger grid
     if gameOver:
         gameOver_text = pygame.font.SysFont(None, 50).render(gameOverText, 1, pygame.Color("Coral"))
         screen.blit(gameOver_text, gameOver_text.get_rect(center=(resX//2, 50)))
